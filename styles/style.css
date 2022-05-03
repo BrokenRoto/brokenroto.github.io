@@ -1,13 +1,17 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap');
+
+
+
+/* @font-face {
     font-family: 'geometric_sans_serif_v1';
     src: url('/fonts/geometric-sans-seriff/geometric-webfont.woff2') format('woff2'),
          url('/fonts/geometric-sans-seriff/geometric-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;   
-}
+} */
 
 body {
-    font-family: 'geometric_sans_serif_v1', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #0d1321;
     color: #f0ebd8;
     margin-top: 32px;
