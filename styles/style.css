@@ -22,12 +22,7 @@ body {
 
 }
 
-/* p, h1, h2, h3, h4, h5, h6 {
-    color: #f0ebd8;
-} */
-
 .navigation {
-    /* float: right; */
     width: 300px;
     padding: 15px;
     margin: 0px 0px 0px auto;
@@ -52,8 +47,7 @@ a:hover.navlink, a:hover.worklink {
 }
 
 .navitem {
-    display: inline;
-    margin: 0px, 3px, 
+    display: inline; 
 }
 
 h1 {
@@ -144,8 +138,7 @@ p {
 .logo {
     float: left;    
     margin: 0px 0px 0px 0px;
-    max-width: 10%;
-    height: auto;
+    width: 140px;
     padding: 16px;
 }
 
@@ -498,18 +491,116 @@ p {
 }
 
 /* Estilos celular */
-@media only screen and (max-device-width: 767px) {
-    
+@media only screen and (max-width: 767px) {
+
+    body {
+        margin: 10% 4% 10% 4%;
+        padding: 0px;
+    }
+
+    h1 {
+       font-size: 56px; 
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    .creative-dev {
+        text-align: center;
+        padding: 0px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #greetings {
+        padding: 0px;
+        margin: 10% 0% 10% 0%;
+    }
+
+    #illustration {
+        display: block;
+        max-width: none;
+        height: unset;
+        float: none;
+        margin: 5% auto 10% auto;
+        width: 75%;
+        padding: 0px;
+    }
+
+    #presentation-p1 {
+        padding: 0px;
+        margin: 0px;
+        max-width: none;
+        min-width: none;
+    }
+
+    #presentation-p1 .p-margin {
+        text-align: center;
+        margin: 5% auto 5% auto;
+        width: 80%;
+        padding: 0px;
+    }
+
+    .valores h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .valores li {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .conoceme {
+        margin: 30% auto 10% auto;
+    }
+
+    .footer-social #copyright {
+        text-align: center;
+        padding: 0px;
+        margin: 5% auto 5% auto;
+        width: 80%;
+    }
+
+    .footer-social .social-media {
+        float: none;
+        text-align: center;
+        padding: 0px;
+        margin: 1% auto 1% auto;
+        width: 90%;
+    }
+
+    .footer-social .navlink {
+        padding: 0px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .footer-social {
+        margin-top: 30%;
+    }
+
 }
 
 
 /* Estilos tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     
 }
 
 
 /* Estilos desktop */
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     
 }
