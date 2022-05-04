@@ -731,10 +731,6 @@ p {
         display: none;
     }
 
-    .nav__toggle .menu {
-        /* margin-top: 10%; */
-    }
-
     .nav__menu {
         display: flex;
         flex-direction: column;
