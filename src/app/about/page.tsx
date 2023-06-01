@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const AboutPage = () => {
-  return (
-    <div className='text-3xl'>AboutPage</div>
-  )
-}
+  return <div className="text-3xl">AboutPage</div>;
+};
 
-export default AboutPage
+export default AboutPage;
