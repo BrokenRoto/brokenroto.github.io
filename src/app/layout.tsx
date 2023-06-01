@@ -1,5 +1,6 @@
 import { Footer } from "@/components/common/footer"
 import { Navbar } from "@/components/common/navbar"
+import '../styles/globals.css';
 
 export const metadata = {
   title: 'Roberto Cárdenas Portfolio',
