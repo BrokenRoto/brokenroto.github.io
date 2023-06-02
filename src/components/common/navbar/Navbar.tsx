@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="container py-8 flex flex-row justify-between">
       <Link className="hover:text-blue-light" href="/">Roberto Cárdenas - Developer</Link>
-      <ul className="flex flex-row justify-between max-w-xs w-full">
+      <ul className="flex flex-row space-x-4">
         <li className="hover:text-blue-light cursor-pointer">
           <Link href="/work">Work</Link>
         </li>
