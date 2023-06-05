@@ -10,7 +10,7 @@ const HomePage = () => {
     <Fragment>
       <div className="container flex my-32 justify-between">
         <div className="flex flex-col justify-center">
-          <h1 className="text-yellow text-[5rem] font-bold tracking-wider">
+          <h1 className="text-secondary text-[5rem] font-bold tracking-wider">
             Welcome
           </h1>
           <h2 className="text-[2rem] max-w-xl">
@@ -26,7 +26,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="bg-yellow text-blue py-14">
+      <div className="bg-secondary text-primary py-14">
         <div className="container text-center">
           <h3 className="text-[2rem] font-bold mb-6">
             Let me introduce myself.

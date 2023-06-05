@@ -14,11 +14,13 @@ module.exports = {
       xl: "1280px",
     },
     colors: {
-      blue: {
+      primary: {
         DEFAULT: "#0d1321",
+        darker: "#1d2d44",
+        dark: "3e5c76", 
         light: "#748cab",
       },
-      yellow: "#f0ebd8",
+      secondary: "#f0ebd8",
     },
     container: {
       center: true,
