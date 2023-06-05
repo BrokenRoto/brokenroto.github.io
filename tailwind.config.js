@@ -17,10 +17,14 @@ module.exports = {
       primary: {
         DEFAULT: "#0d1321",
         darker: "#1d2d44",
-        dark: "3e5c76", 
+        dark: "#3e5c76",
         light: "#748cab",
+        lighter: "#afbdcf",
       },
-      secondary: "#f0ebd8",
+      secondary: {
+        DEFAULT: "#f0ebd8",
+        light: "#f8f4e1",
+      },
     },
     container: {
       center: true,
