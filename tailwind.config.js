@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        "work-layout": "auto 1fr auto",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",

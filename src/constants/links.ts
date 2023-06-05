@@ -1,0 +1,1 @@
+export const transformarLink = 'https://transformar.bio/';

@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 import profile from "../../public/static/profile.jpg";
 import Image from "next/image";
+import { Work } from "@/components/work";
+import transformar from "../../public/static/work/transformar.webp";
+import { transformarLink } from "@/constants/links";
 
 const HomePage = () => {
   return (
@@ -39,7 +42,16 @@ const HomePage = () => {
 
       <div className="container my-20">
         <h3 className="text-[2rem] font-bold mb-6">Featured Work</h3>
-        <span>View More -&gt;</span>
+        <div className="grid grid-cols-2 gap-x-16">
+          <Work
+            alt="transformar"
+            description="Transformar gathers information about the bioeconomy potential in Latin America and the Caribbean by identifying opportunities to utilize and transform biomass into valuable products and services."
+            technologies={["React", "SemanticUI"]}
+            image={transformar}
+            link={transformarLink}
+            title="Transformar"
+          />
+        </div>
       </div>
     </Fragment>
   );
