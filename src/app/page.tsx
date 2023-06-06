@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Work } from "@/components/work";
 import transformar from "../../public/static/work/transformar.webp";
 import himchari from "../../public/static/work/himchari.webp";
+import descubreYa from "../../public/static/work/descubreya.webp";
 import { transformarLink } from "@/constants/links";
 
 const HomePage = () => {
@@ -43,7 +44,7 @@ const HomePage = () => {
 
       <div className="container my-20">
         <h3 className="text-[2rem] font-bold mb-6">Featured Work</h3>
-        <div className="grid grid-cols-2 gap-x-16">
+        <div className="grid grid-cols-2 gap-x-16 gap-y-16">
           <Work
             alt="transformar"
             description="Transformar gathers information about the bioeconomy potential in Latin America and the Caribbean by identifying opportunities to utilize and transform biomass into valuable products and services."
@@ -59,6 +60,22 @@ const HomePage = () => {
             image={himchari}
             link={transformarLink}
             title="Himchari Mobile"
+          />
+          <Work
+            alt="descubreya"
+            description="Mobile application for listing restaurants and entertainment venues with the aim of providing exposure to small and medium-sized businesses."
+            technologies={["Ionic", "Firebase", "Angular", "Android"]}
+            image={descubreYa}
+            link={transformarLink}
+            title="Descubre Ya!"
+          />
+          <Work
+            alt="descubreya"
+            description="Mobile application for listing restaurants and entertainment venues with the aim of providing exposure to small and medium-sized businesses."
+            technologies={["Ionic", "Firebase", "Angular", "Android"]}
+            image={descubreYa}
+            link={transformarLink}
+            title="Descubre Ya!"
           />
         </div>
       </div>
