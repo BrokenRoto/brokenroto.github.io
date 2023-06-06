@@ -3,6 +3,7 @@ import profile from "../../public/static/profile.jpg";
 import Image from "next/image";
 import { Work } from "@/components/work";
 import transformar from "../../public/static/work/transformar.webp";
+import himchari from "../../public/static/work/himchari.webp";
 import { transformarLink } from "@/constants/links";
 
 const HomePage = () => {
@@ -50,6 +51,14 @@ const HomePage = () => {
             image={transformar}
             link={transformarLink}
             title="Transformar"
+          />
+          <Work
+            alt="himchari"
+            description="Mobile app for Himchari Dojang, a taekwondo academy in Quito, Ecuador. It's goal is to automate processes and provide a platform for students to track their progress, access schedules and resources."
+            technologies={["Ionic", "Firebase", "React"]}
+            image={himchari}
+            link={transformarLink}
+            title="Himchari Mobile"
           />
         </div>
       </div>
