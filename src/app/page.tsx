@@ -6,6 +6,7 @@ import transformar from "../../public/static/work/transformar.webp";
 import himchari from "../../public/static/work/himchari.webp";
 import descubreYa from "../../public/static/work/descubreya.webp";
 import sinisterVacations from "../../public/static/work/sinister-vacations.webp";
+import disturbingHome from "../../public/static/work/disturbing-home.webp";
 import { transformarLink } from "@/constants/links";
 
 const HomePage = () => {
@@ -77,6 +78,14 @@ const HomePage = () => {
             image={sinisterVacations}
             link={transformarLink}
             title="Sinister Vacations"
+          />
+          <Work
+            alt="disturbing home"
+            description="Prepare to be captivated by the unsettling atmosphere of 'Disturbing Home VR.' Experience the suspense of a haunting virtual reality horror game as you navigate a ominous house and uncover hidden clues."
+            technologies={["Unity", "C#", "Virtual Reality"]}
+            image={disturbingHome}
+            link={transformarLink}
+            title="Disturbing Home VR"
           />
         </div>
       </div>
