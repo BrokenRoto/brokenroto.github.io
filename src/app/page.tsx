@@ -5,6 +5,7 @@ import { Work } from "@/components/work";
 import transformar from "../../public/static/work/transformar.webp";
 import himchari from "../../public/static/work/himchari.webp";
 import descubreYa from "../../public/static/work/descubreya.webp";
+import sinisterVacations from "../../public/static/work/sinister-vacations.webp";
 import { transformarLink } from "@/constants/links";
 
 const HomePage = () => {
@@ -64,18 +65,18 @@ const HomePage = () => {
           <Work
             alt="descubreya"
             description="Mobile application for listing restaurants and entertainment venues with the aim of providing exposure to small and medium-sized businesses."
-            technologies={["Ionic", "Firebase", "Angular", "Android"]}
+            technologies={["Ionic", "Firebase", "Angular"]}
             image={descubreYa}
             link={transformarLink}
             title="Descubre Ya!"
           />
           <Work
-            alt="descubreya"
-            description="Mobile application for listing restaurants and entertainment venues with the aim of providing exposure to small and medium-sized businesses."
-            technologies={["Ionic", "Firebase", "Angular", "Android"]}
-            image={descubreYa}
+            alt="sinister vacations"
+            description="Unleash chaos in a stranded paradise turned nightmare. Battle undead horrors, navigate a hidden lab, and fight for survival in this intense First Person Shooter."
+            technologies={["Unity", "C#", "Game Design"]}
+            image={sinisterVacations}
             link={transformarLink}
-            title="Descubre Ya!"
+            title="Sinister Vacations"
           />
         </div>
       </div>
