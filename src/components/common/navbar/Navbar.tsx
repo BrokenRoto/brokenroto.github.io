@@ -1,19 +1,31 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
     <nav className="container py-8 flex flex-row justify-between items-center">
-      <Link className="hover:text-primary-light font-logo text-[1.8rem] tracking-wider" href="/">BrokenRoto</Link>
+      <Link
+        className={`font-logo text-[1.8rem] tracking-wider ${styles["custom-link"]} ${styles["custom-link--logo"]}`}
+        href="/"
+      >
+        BrokenRoto
+      </Link>
       <ul className="flex flex-row space-x-4 items-center">
-        <li className="hover:text-primary-light cursor-pointer">
-          <Link href="/work">Work</Link>
+        <li className="hover:cursor-pointer">
+          <Link className={styles["custom-link"]} href="/work">
+            Work
+          </Link>
         </li>
-        <li className="hover:text-primary-light cursor-pointer">
-          <Link href="/about">About</Link>
+        <li className="hover:cursor-pointer">
+          <Link href="/about" className={styles["custom-link"]}>
+            About
+          </Link>
         </li>
-        <li className="hover:text-primary-light cursor-pointer">
-          <Link href="/contact">Contact</Link>
+        <li className="hover:cursor-pointer">
+          <Link href="/contact" className={styles["custom-link"]}>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
