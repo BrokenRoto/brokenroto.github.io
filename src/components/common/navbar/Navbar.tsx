@@ -3,9 +3,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="container py-8 flex flex-row justify-between">
-      <Link className="hover:text-primary-light" href="/">Roberto Cárdenas - Developer</Link>
-      <ul className="flex flex-row space-x-4">
+    <nav className="container py-8 flex flex-row justify-between items-center">
+      <Link className="hover:text-primary-light font-logo text-[1.8rem] tracking-wider" href="/">BrokenRoto</Link>
+      <ul className="flex flex-row space-x-4 items-center">
         <li className="hover:text-primary-light cursor-pointer">
           <Link href="/work">Work</Link>
         </li>

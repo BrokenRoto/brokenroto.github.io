@@ -16,6 +16,10 @@ module.exports = {
         typing: "typing 1.5s steps(40, end)"
       }
     },
+    fontFamily: {
+      logo: ['Shadows Into Light', 'Poppins', 'sans-seriff'],
+      body: ['Poppins', 'sans-seriff']
+    },
     screens: {
       sm: "640px",
       md: "768px",
