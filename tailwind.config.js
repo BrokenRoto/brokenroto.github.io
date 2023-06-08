@@ -6,6 +6,15 @@ module.exports = {
       gridTemplateRows: {
         "work-layout": "auto 1fr auto",
       },
+      keyframes: {
+        typing: {
+          from: { width: "0" },
+          to: { width: "100%" },
+        },
+      },
+      animation: {
+        typing: "typing 1.5s steps(40, end)"
+      }
     },
     screens: {
       sm: "640px",
