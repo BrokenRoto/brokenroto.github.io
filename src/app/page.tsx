@@ -24,8 +24,8 @@ const HomePage = () => {
             software.
           </h2>
           <div className="mt-9 space-x-3">
-            <HeroButton href="/work" text="Let's Talk" className="text-xl" inverted />
-            <HeroButton href="/work" text="See Portfolio" className="text-xl" />
+            <HeroButton href="#contact" text="Let's Talk" className="text-xl" inverted />
+            <HeroButton href="#work" text="See Portfolio" className="text-xl" />
           </div>
         </div>
         <div>
