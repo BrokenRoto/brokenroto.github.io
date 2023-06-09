@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import profile from "../../public/static/profile.jpg";
+import profile from "../../public/static/profile.webp";
 import Image from "next/image";
 import { Work } from "@/components/work";
 import transformar from "../../public/static/work/transformar.webp";
