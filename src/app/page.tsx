@@ -7,8 +7,9 @@ import himchari from "../../public/static/work/himchari.webp";
 import descubreYa from "../../public/static/work/descubreya.webp";
 import sinisterVacations from "../../public/static/work/sinister-vacations.webp";
 import disturbingHome from "../../public/static/work/disturbing-home.webp";
-import { transformarLink } from "@/constants/links";
+import { socialLinks, transformarLink } from "@/constants/links";
 import { HeroButton } from "@/components/heroButton";
+import Socials from "@/components/socials/Socials";
 
 const HomePage = () => {
   return (
@@ -92,6 +93,20 @@ const HomePage = () => {
             link={transformarLink}
             title="Disturbing Home VR"
           />
+        </div>
+      </div>
+
+      <div className="container">
+        <h3 className="text-[2rem] font-bold text-center mb-5">Get in Touch</h3>
+        <div className="max-w-2xl mx-auto text-center border rounded-3xl py-16">
+          <h4 className="text-xl">Seeking to work together or have any questions?</h4>
+          <HeroButton href={`mailto:${socialLinks.email}`} text="Email me!" className="my-8" />
+          <h4 className="text-lg mb-4">Or reach out!</h4>
+          <div className="flex justify-center space-x-4">
+            <Socials icon="github" website={socialLinks.github} />
+            <Socials icon="linkedin" website={socialLinks.linkedin} />
+            <Socials icon="instagram" website={socialLinks.instagram} />
+          </div>
         </div>
       </div>
     </Fragment>
