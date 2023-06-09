@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-primary text-secondary  bg-gradient-to-r from-[#140f24] via-primary to-[#0d1d21] font-body">
+    <html lang="en" className="scroll-smooth">
+      <body className="bg-primary text-secondary  bg-gradient-to-r from-[#140f24] via-primary to-[#0d1d21] font-body scro">
         <Navbar />
         {children}
         <Footer />

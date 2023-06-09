@@ -36,7 +36,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="bg-secondary text-primary py-14">
+      <div id="about" className="bg-secondary text-primary py-14">
         <div className="container text-center">
           <h3 className="text-[2rem] font-bold mb-6">
             Let me introduce myself.
@@ -50,8 +50,8 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="container my-20">
-        <h3 className="text-[2rem] font-bold mb-6">Featured Work</h3>
+      <div id="work" className="container my-20 pt-8">
+        <h3 className="text-[2rem] font-bold mb-10">Featured Work</h3>
         <div className="grid grid-cols-2 gap-x-16 gap-y-16">
           <Work
             alt="transformar"
@@ -96,7 +96,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="container">
+      <div id="contact" className="container">
         <h3 className="text-[2rem] font-bold text-center mb-5">Get in Touch</h3>
         <div className="max-w-2xl mx-auto text-center border rounded-3xl py-16">
           <h4 className="text-xl">Seeking to work together or have any questions?</h4>

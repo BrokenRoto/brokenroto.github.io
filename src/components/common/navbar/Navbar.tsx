@@ -13,17 +13,17 @@ const Navbar = () => {
       </Link>
       <ul className="flex flex-row space-x-4 items-center">
         <li className="hover:cursor-pointer">
-          <Link className={styles["custom-link"]} href="/work">
+          <Link href="#about" className={styles["custom-link"]} scroll={false}> 
+            About
+          </Link>
+        </li>
+        <li className="hover:cursor-pointer" >
+          <Link className={styles["custom-link"]} href="#work" scroll={false}>
             Work
           </Link>
         </li>
         <li className="hover:cursor-pointer">
-          <Link href="/about" className={styles["custom-link"]}>
-            About
-          </Link>
-        </li>
-        <li className="hover:cursor-pointer">
-          <Link href="/contact" className={styles["custom-link"]}>
+          <Link href="#contact" className={styles["custom-link"]} scroll={false}>
             Contact
           </Link>
         </li>
