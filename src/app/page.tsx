@@ -8,11 +8,12 @@ import descubreYa from "../../public/static/work/descubreya.webp";
 import sinisterVacations from "../../public/static/work/sinister-vacations.webp";
 import disturbingHome from "../../public/static/work/disturbing-home.webp";
 import { transformarLink } from "@/constants/links";
+import { HeroButton } from "@/components/heroButton";
 
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="container flex my-32 justify-between">
+      <div className="container flex my-32 justify-between items-center">
         <div className="flex flex-col justify-center">
           <h1 className="animate-typing overflow-hidden text-secondary text-[5rem] font-bold tracking-wider">
             Welcome
@@ -21,6 +22,10 @@ const HomePage = () => {
             My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
             software.
           </h2>
+          <div className="mt-9 space-x-3">
+            <HeroButton href="/work" text="Let's Talk" className="text-xl" inverted />
+            <HeroButton href="/work" text="See Portfolio" className="text-xl" />
+          </div>
         </div>
         <div>
           <Image
