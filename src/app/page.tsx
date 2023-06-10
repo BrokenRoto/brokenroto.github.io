@@ -60,9 +60,9 @@ const HomePage = () => {
             Let me introduce myself.
           </h3>
           <div className="text-3xl text-left space-y-24 my-48">
-            <div className="flex justify-between items-center">
-              <span className="text-primary-light text-[3rem]">&#8226;</span>
-              <p className="ml-auto max-w-3xl">
+            <div className="flex justify-end items-center">
+              <span className="text-primary-light text-[3rem] pr-12">&#8226;</span>
+              <p className="max-w-3xl">
                 I am a{" "}
                 <span className="text-primary-light font-semibold">
                   Computer Science Engineer
@@ -70,9 +70,9 @@ const HomePage = () => {
                 with a passion for Software and Web Development.
               </p>
             </div>
-            <div className="flex justify-between items-center">
-              <span className="text-primary-light text-[3rem]">&#8226;</span>
-              <p className="ml-auto max-w-3xl">
+            <div className="flex justify-end items-center">
+              <span className="text-primary-light text-[3rem] pr-12">&#8226;</span>
+              <p className="max-w-3xl">
                 Dedicated to{" "}
                 <span className="text-primary-light font-semibold">
                   continuous improvement
@@ -82,9 +82,9 @@ const HomePage = () => {
               </p>
             </div>
 
-            <div className="flex justify-between items-center">
-              <span className="text-primary-light text-[3rem]">&#8226;</span>
-              <p className="ml-auto max-w-3xl">
+            <div className="flex justify-end items-center">
+              <span className="text-primary-light text-[3rem] pr-12">&#8226;</span>
+              <p className="max-w-3xl">
                 I value{" "}
                 <span className="text-primary-light font-semibold">
                   clean code
