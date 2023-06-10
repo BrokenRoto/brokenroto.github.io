@@ -48,7 +48,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <div className="text-[3rem] flex justify-center mt-20 hover:text-primary-light active:text-primary-light">
+        <div className="text-[3rem] flex justify-center mt-28 mb-12 hover:text-primary-light active:text-primary-light">
           <Link href="#about">
             <SlArrowDown />
           </Link>
