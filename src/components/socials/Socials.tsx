@@ -16,7 +16,7 @@ const Socials: React.FC<Props> = ({ website, icon }) => {
   };
 
   return (
-    <a href={website} target="_blank" rel="noreferrer" className="text-[2.5rem] hover:text-primary-light">
+    <a href={website} target="_blank" rel="noreferrer" className="text-[2.5rem] hover:text-primary-light transition-colors">
       {icons[icon].icon}
     </a>
   );
