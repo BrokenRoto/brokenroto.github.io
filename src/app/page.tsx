@@ -54,22 +54,78 @@ const HomePage = () => {
           </Link>
         </div>
       </div>
-      <div id="about" className="bg-secondary text-primary py-14">
+      <div id="about" className="bg-secondary text-primary py-16 min-h-[100vh] flex flex-col justify-center">
         <div className="container text-center">
-          <h3 className="text-[2rem] font-bold mb-6">
+          <h3 className="text-[3rem] font-bold">
             Let me introduce myself.
           </h3>
-          <p className="text-2xl max-w-2xl mx-auto">
-            I am a Computer Science Engineer with a passion for Software and Web
-            Development. Dedicated to continuous improvement, my drive is
-            translating ideas into practical and beautiful solutions through
-            code.
-          </p>
+          <div className="text-3xl text-left space-y-24 my-48">
+            <div className="flex justify-between items-center">
+              <span className="text-primary-light text-[3rem]">&#8226;</span>
+              <p className="ml-auto max-w-3xl">
+                I am a{" "}
+                <span className="text-primary-light font-semibold">
+                  Computer Science Engineer
+                </span>{" "}
+                with a passion for Software and Web Development.
+              </p>
+            </div>
+            <div className="flex justify-between items-center">
+              <span className="text-primary-light text-[3rem]">&#8226;</span>
+              <p className="ml-auto max-w-3xl">
+                Dedicated to{" "}
+                <span className="text-primary-light font-semibold">
+                  continuous improvement
+                </span>
+                , my drive is translating ideas into practical and beautiful
+                solutions through code.
+              </p>
+            </div>
+
+            <div className="flex justify-between items-center">
+              <span className="text-primary-light text-[3rem]">&#8226;</span>
+              <p className="ml-auto max-w-3xl">
+                I value{" "}
+                <span className="text-primary-light font-semibold">
+                  clean code
+                </span>
+                , user-friendly design, functionality, and positive user
+                experiences.
+              </p>
+            </div>
+            
+          </div>
+
+          {/* <div className="flex justify-between text-[2rem] text-left">
+            <p>
+              I am a{" "}
+              <span className="text-primary-light font-semibold">
+                creative developer{" "}
+              </span>
+              specializing in user-centered experiences. With meticulous
+              attention to detail,I create
+              <span className="text-primary-light font-semibold">
+                {" "}
+                high-quality{" "}
+              </span>
+              applications and websites.
+            </p>
+            <p>
+              I value{" "}
+              <span className="text-primary-light font-semibold">
+                clean code
+              </span>
+              , user-friendly design, functionality, and positive user
+              experiences. I approach projects with enthusiasm and seek constant
+              improvement. Inspired by music, photography, and art, I believe
+              coding is the most liberating form of creation.
+            </p>
+          </div> */}
         </div>
       </div>
 
       <div id="work" className="container my-20 pt-8">
-        <h3 className="text-[2rem] font-bold mb-10">Featured Work</h3>
+        <h3 className="text-[3rem] font-bold mb-10">Featured Work</h3>
         <div className="grid grid-cols-2 gap-x-16 gap-y-16">
           <Work
             alt="transformar"
