@@ -54,14 +54,17 @@ const HomePage = () => {
           </Link>
         </div>
       </div>
-      <div id="about" className="bg-secondary text-primary py-16 min-h-[100vh] flex flex-col justify-center">
+      <div
+        id="about"
+        className="bg-secondary text-primary py-16 flex flex-col justify-center"
+      >
         <div className="container text-center">
-          <h3 className="text-[3rem] font-bold">
-            Let me introduce myself.
-          </h3>
-          <div className="text-3xl text-left space-y-24 my-48">
+          <h3 className="text-[3rem] font-bold">Let me introduce myself.</h3>
+          <div className="text-3xl text-left space-y-24 my-16">
             <div className="flex justify-end items-center">
-              <span className="text-primary-light text-[3rem] pr-12">&#8226;</span>
+              <span className="text-primary-light text-[3rem] pr-12">
+                &#8226;
+              </span>
               <p className="max-w-3xl">
                 I am a{" "}
                 <span className="text-primary-light font-semibold">
@@ -71,7 +74,9 @@ const HomePage = () => {
               </p>
             </div>
             <div className="flex justify-end items-center">
-              <span className="text-primary-light text-[3rem] pr-12">&#8226;</span>
+              <span className="text-primary-light text-[3rem] pr-12">
+                &#8226;
+              </span>
               <p className="max-w-3xl">
                 Dedicated to{" "}
                 <span className="text-primary-light font-semibold">
@@ -83,44 +88,19 @@ const HomePage = () => {
             </div>
 
             <div className="flex justify-end items-center">
-              <span className="text-primary-light text-[3rem] pr-12">&#8226;</span>
+              <span className="text-primary-light text-[3rem] pr-12">
+                &#8226;
+              </span>
               <p className="max-w-3xl">
                 I value{" "}
                 <span className="text-primary-light font-semibold">
                   clean code
                 </span>
-                , user-friendly design, functionality, and positive user
-                experiences.
+                , user-friendly design, seamless functionality, and exceptional
+                user experiences.
               </p>
             </div>
-            
           </div>
-
-          {/* <div className="flex justify-between text-[2rem] text-left">
-            <p>
-              I am a{" "}
-              <span className="text-primary-light font-semibold">
-                creative developer{" "}
-              </span>
-              specializing in user-centered experiences. With meticulous
-              attention to detail,I create
-              <span className="text-primary-light font-semibold">
-                {" "}
-                high-quality{" "}
-              </span>
-              applications and websites.
-            </p>
-            <p>
-              I value{" "}
-              <span className="text-primary-light font-semibold">
-                clean code
-              </span>
-              , user-friendly design, functionality, and positive user
-              experiences. I approach projects with enthusiasm and seek constant
-              improvement. Inspired by music, photography, and art, I believe
-              coding is the most liberating form of creation.
-            </p>
-          </div> */}
         </div>
       </div>
 
