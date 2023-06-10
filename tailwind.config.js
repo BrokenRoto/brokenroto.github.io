@@ -41,6 +41,9 @@ module.exports = {
         light: "#f8f4e1",
       },
     },
+    minHeight: {
+      'full-minus-nav': 'calc(100vh - 110px)'
+    },
     container: {
       center: true,
     },

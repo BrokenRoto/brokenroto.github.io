@@ -10,30 +10,48 @@ import disturbingHome from "../../public/static/work/disturbing-home.webp";
 import { socialLinks, transformarLink } from "@/constants/links";
 import { HeroButton } from "@/components/heroButton";
 import Socials from "@/components/socials/Socials";
+import { SlArrowDown } from "react-icons/sl";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="container flex my-32 justify-between items-center">
-        <div className="flex flex-col justify-center">
-          <h1 className="animate-typing overflow-hidden text-secondary text-[5rem] font-bold tracking-wider">
-            Welcome
-          </h1>
-          <h2 className="text-[2rem] max-w-xl">
-            My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
-            software.
-          </h2>
-          <div className="mt-9 space-x-3">
-            <HeroButton href="#contact" text="Let's Talk" className="text-xl" inverted />
-            <HeroButton href="#work" text="See Portfolio" className="text-xl" />
+      <div className="flex flex-col justify-center min-h-full-minus-nav">
+        <div className="container flex justify-between items-center">
+          <div className="flex flex-col justify-center">
+            <h1 className="animate-typing overflow-hidden text-secondary text-[5rem] font-bold tracking-wider">
+              Welcome
+            </h1>
+            <h2 className="text-[2rem] max-w-xl">
+              My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
+              software.
+            </h2>
+            <div className="mt-9 space-x-3">
+              <HeroButton
+                href="#contact"
+                text="Let's Talk"
+                className="text-xl"
+                inverted
+              />
+              <HeroButton
+                href="#work"
+                text="See Portfolio"
+                className="text-xl"
+              />
+            </div>
+          </div>
+          <div>
+            <Image
+              className="rounded-full w-full max-w-[450px] shadow-lg"
+              src={profile}
+              alt="profile"
+            />
           </div>
         </div>
-        <div>
-          <Image
-            className="rounded-full w-full max-w-[450px] shadow-lg"
-            src={profile}
-            alt="profile"
-          />
+        <div className="text-[3rem] flex justify-center mt-20 hover:text-primary-light active:text-primary-light">
+          <Link href="#about">
+            <SlArrowDown />
+          </Link>
         </div>
       </div>
       <div id="about" className="bg-secondary text-primary py-14">
@@ -99,8 +117,14 @@ const HomePage = () => {
       <div id="contact" className="container">
         <h3 className="text-[2rem] font-bold text-center mb-5">Get in Touch</h3>
         <div className="max-w-2xl mx-auto text-center border rounded-3xl py-16">
-          <h4 className="text-xl">Seeking to work together or have any questions?</h4>
-          <HeroButton href={`mailto:${socialLinks.email}`} text="Email me!" className="my-8" />
+          <h4 className="text-xl">
+            Seeking to work together or have any questions?
+          </h4>
+          <HeroButton
+            href={`mailto:${socialLinks.email}`}
+            text="Email me!"
+            className="my-8"
+          />
           <h4 className="text-lg mb-4">Or reach out!</h4>
           <div className="flex justify-center space-x-4">
             <Socials icon="github" website={socialLinks.github} />
