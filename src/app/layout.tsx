@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-primary text-secondary  bg-gradient-to-r from-[#140f24] via-primary to-[#0d1d21] font-body scro">
+      <body className="bg-primary text-secondary px-6 bg-gradient-to-r from-[#140f24] via-primary to-[#0d1d21] font-body scro">
         <Navbar />
         {children}
         <Footer />

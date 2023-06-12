@@ -17,32 +17,32 @@ const HomePage = () => {
   return (
     <Fragment>
       <div className="flex flex-col justify-center min-h-full-minus-nav">
-        <div className="container flex justify-between items-center">
-          <div className="flex flex-col justify-center">
-            <h1 className="animate-typing overflow-hidden text-secondary text-[5rem] font-bold tracking-wider">
+        <div className="container flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col justify-center order-1">
+            <h1 className="animate-typing overflow-hidden text-secondary text-[3rem] lg:text-[5rem] font-bold tracking-wider">
               Welcome
             </h1>
-            <h2 className="text-[2rem] max-w-xl">
+            <h2 className="text-[1.5rem] lg:text-[2rem] max-w-xl">
               My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
               software.
             </h2>
-            <div className="mt-9 space-x-3">
+            <div className="flex flex-col mt-9 md:block md:space-x-3 space-y-3">
               <HeroButton
                 href="#contact"
                 text="Let's Talk"
-                className="text-xl"
+                className="text-lg md:text-xl max-w-[200px] md:max-w-none"
                 inverted
               />
               <HeroButton
                 href="#work"
                 text="See Portfolio"
-                className="text-xl"
+                className="text-lg md:text-xl max-w-[200px] md-max-w-none"
               />
             </div>
           </div>
-          <div>
+          <div className="order:1 md:mr-20">
             <Image
-              className="rounded-full w-full max-w-[450px] shadow-lg"
+              className="mb-8 md:mb-0 rounded-full w-full max-w-[250px] md:max-w-[450px] shadow-lg"
               src={profile}
               alt="profile"
             />
