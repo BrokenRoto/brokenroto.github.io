@@ -56,7 +56,7 @@ const HomePage = () => {
       </div>
       <div
         id="about"
-        className="bg-secondary text-primary py-16 flex flex-col justify-center"
+        className="bg-secondary text-primary py-16 flex flex-col justify-center mx-[-1.5rem]"
       >
         <div className="px-8 md:px-0 container text-center">
           <h3 className="text-[2rem] lg:text-[3rem] font-bold">Let me introduce myself.</h3>
