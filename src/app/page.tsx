@@ -141,7 +141,7 @@ const HomePage = () => {
           />
           <Work
             alt="disturbing home"
-            description="Prepare to be captivated by the unsettling atmosphere of 'Disturbing Home VR.' Experience the suspense of a haunting virtual reality horror game as you navigate a ominous house and uncover hidden clues."
+            description="Prepare to be captivated by the unsettling atmosphere of 'Disturbing Home VR.' Experience the suspense of a haunting virtual reality horror game as you navigate an ominous house and uncover hidden clues."
             technologies={["Unity", "C#", "Virtual Reality"]}
             image={disturbingHome}
             link="#work"
