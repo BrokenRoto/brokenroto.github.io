@@ -42,6 +42,7 @@ const HomePage = () => {
           </div>
           <div className="order:1 md:mr-20">
             <Image
+              priority
               className="mb-8 md:mb-0 rounded-full w-full max-w-[250px] md:max-w-[450px] shadow-lg"
               src={profile}
               alt="profile"
@@ -136,7 +137,7 @@ const HomePage = () => {
             description="Unleash chaos in a stranded paradise turned nightmare. Battle undead horrors, navigate a hidden lab, and fight for survival in this intense First Person Shooter."
             technologies={["Unity", "C#", "Game Design"]}
             image={sinisterVacations}
-            link="#work"
+            nonLink
             title="Sinister Vacations"
           />
           <Work
@@ -144,7 +145,7 @@ const HomePage = () => {
             description="Prepare to be captivated by the unsettling atmosphere of 'Disturbing Home VR.' Experience the suspense of a haunting virtual reality horror game as you navigate an ominous house and uncover hidden clues."
             technologies={["Unity", "C#", "Virtual Reality"]}
             image={disturbingHome}
-            link="#work"
+            nonLink
             title="Disturbing Home VR"
           />
         </div>
