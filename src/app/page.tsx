@@ -58,14 +58,14 @@ const HomePage = () => {
         id="about"
         className="bg-secondary text-primary py-16 flex flex-col justify-center"
       >
-        <div className="container text-center">
-          <h3 className="text-[3rem] font-bold">Let me introduce myself.</h3>
-          <div className="text-3xl text-left space-y-24 my-16">
+        <div className="px-8 md:px-0 container text-center">
+          <h3 className="text-[2rem] lg:text-[3rem] font-bold">Let me introduce myself.</h3>
+          <div className="text-center text-xl lg:text-3xl lg:text-left space-y-12 lg:space-y-24 my-16">
             <div className="flex justify-end items-center">
-              <span className="text-primary-light text-[3rem] pr-12">
+              <span className="hidden md:block text-primary-light text-[3rem] pr-12">
                 &#8226;
               </span>
-              <p className="max-w-3xl">
+              <p className="max-w-xl lg:max-w-3xl">
                 I am a{" "}
                 <span className="text-primary-light font-semibold">
                   Computer Science Engineer
@@ -74,10 +74,10 @@ const HomePage = () => {
               </p>
             </div>
             <div className="flex justify-end items-center">
-              <span className="text-primary-light text-[3rem] pr-12">
+              <span className="hidden md:block text-primary-light text-[3rem] pr-12">
                 &#8226;
               </span>
-              <p className="max-w-3xl">
+              <p className="max-w-xl lg:max-w-3xl">
                 Dedicated to{" "}
                 <span className="text-primary-light font-semibold">
                   continuous improvement
@@ -88,10 +88,10 @@ const HomePage = () => {
             </div>
 
             <div className="flex justify-end items-center">
-              <span className="text-primary-light text-[3rem] pr-12">
+              <span className="hidden md:block text-primary-light text-[3rem] pr-12">
                 &#8226;
               </span>
-              <p className="max-w-3xl">
+              <p className="max-w-xl lg:max-w-3xl">
                 I value{" "}
                 <span className="text-primary-light font-semibold">
                   clean code
