@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="container py-8 flex flex-row justify-between items-center">
       <Link
-        className={`font-logo text-[1.25rem] md:text-[1.8rem] tracking-wider ${styles["custom-link"]} ${styles["custom-link--logo"]}`}
+        className={`font-logo text-[1rem] sm:text-[1.25rem] md:text-[1.8rem] tracking-wider ${styles["custom-link"]} ${styles["custom-link--logo"]}`}
         href="/"
       >
         BrokenRoto
       </Link>
-      <ul className="flex flex-row space-x-2 md:space-x-4 items-center">
+      <ul className="flex flex-row space-x-2 md:space-x-4 items-center text-xs sm:text-base">
         <li className="hover:cursor-pointer">
           <Link href="#about" className={styles["custom-link"]} scroll={false}> 
             About
