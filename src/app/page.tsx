@@ -104,7 +104,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div id="work" className="container mt-20 mb-56 pt-8">
+      <div id="work" className="container mt-20 mb-36 md:mb-56 pt-8">
         <h3 className="text-[2rem] md:text-[3rem] font-bold mb-10">Featured Work</h3>
         <div className="flex flex-col space-y-6 md:space-y-8 xl:space-y-0 xl:grid xl:grid-cols-2 xl:gap-x-16 xl:gap-y-16">
           <Work
@@ -150,9 +150,9 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div id="contact" className="container mb-56">
+      <div id="contact" className="container mb-36 sm:mb-56">
         <h3 className="text-[2rem] font-bold text-center mb-5">Get in Touch</h3>
-        <div className="max-w-2xl mx-auto text-center border rounded-3xl py-16">
+        <div className="px-8 max-w-2xl mx-auto text-center border rounded-3xl py-16">
           <h4 className="text-xl">
             Seeking to work together or have any questions?
           </h4>
