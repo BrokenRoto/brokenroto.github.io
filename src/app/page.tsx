@@ -105,8 +105,8 @@ const HomePage = () => {
       </div>
 
       <div id="work" className="container mt-20 mb-56 pt-8">
-        <h3 className="text-[3rem] font-bold mb-10">Featured Work</h3>
-        <div className="grid grid-cols-2 gap-x-16 gap-y-16">
+        <h3 className="text-[2rem] md:text-[3rem] font-bold mb-10">Featured Work</h3>
+        <div className="flex flex-col space-y-6 md:space-y-8 xl:space-y-0 xl:grid xl:grid-cols-2 xl:gap-x-16 xl:gap-y-16">
           <Work
             alt="transformar"
             description="Transformar gathers information about the bioeconomy potential in Latin America and the Caribbean by identifying opportunities to utilize and transform biomass into valuable products and services."
