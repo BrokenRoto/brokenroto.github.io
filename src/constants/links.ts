@@ -1,5 +1,3 @@
-export const transformarLink = "https://transformar.bio/";
-
 export const workLinks = {
   transformar: "https://transformar.bio/",
   himchari: "https://himcharitkd.com/",

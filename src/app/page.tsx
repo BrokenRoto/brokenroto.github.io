@@ -7,7 +7,7 @@ import himchari from "../../public/static/work/himchari.webp";
 import descubreYa from "../../public/static/work/descubreya.webp";
 import sinisterVacations from "../../public/static/work/sinister-vacations.webp";
 import disturbingHome from "../../public/static/work/disturbing-home.webp";
-import { socialLinks, transformarLink } from "@/constants/links";
+import { socialLinks, workLinks } from "@/constants/links";
 import { HeroButton } from "@/components/heroButton";
 import Socials from "@/components/socials/Socials";
 import { SlArrowDown } from "react-icons/sl";
@@ -112,7 +112,7 @@ const HomePage = () => {
             description="Transformar gathers information about the bioeconomy potential in Latin America and the Caribbean by identifying opportunities to utilize and transform biomass into valuable products and services."
             technologies={["React", "SemanticUI"]}
             image={transformar}
-            link={transformarLink}
+            link={workLinks.transformar}
             title="Transformar"
           />
           <Work
@@ -120,7 +120,7 @@ const HomePage = () => {
             description="Mobile app for Himchari Dojang, a taekwondo academy in Quito, Ecuador. It's goal is to automate processes and provide a platform for students to track their progress, access schedules and resources."
             technologies={["Ionic", "Firebase", "React"]}
             image={himchari}
-            link={transformarLink}
+            link={workLinks.himchari}
             title="Himchari Mobile"
           />
           <Work
@@ -128,7 +128,7 @@ const HomePage = () => {
             description="Mobile application for listing restaurants and entertainment venues with the aim of providing exposure to small and medium-sized businesses."
             technologies={["Ionic", "Firebase", "Angular"]}
             image={descubreYa}
-            link={transformarLink}
+            link={workLinks.descubreya}
             title="Descubre Ya!"
           />
           <Work
@@ -136,7 +136,7 @@ const HomePage = () => {
             description="Unleash chaos in a stranded paradise turned nightmare. Battle undead horrors, navigate a hidden lab, and fight for survival in this intense First Person Shooter."
             technologies={["Unity", "C#", "Game Design"]}
             image={sinisterVacations}
-            link={transformarLink}
+            link="#work"
             title="Sinister Vacations"
           />
           <Work
@@ -144,7 +144,7 @@ const HomePage = () => {
             description="Prepare to be captivated by the unsettling atmosphere of 'Disturbing Home VR.' Experience the suspense of a haunting virtual reality horror game as you navigate a ominous house and uncover hidden clues."
             technologies={["Unity", "C#", "Virtual Reality"]}
             image={disturbingHome}
-            link={transformarLink}
+            link="#work"
             title="Disturbing Home VR"
           />
         </div>
