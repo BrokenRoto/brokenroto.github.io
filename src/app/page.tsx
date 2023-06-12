@@ -104,7 +104,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div id="work" className="container my-20 pt-8">
+      <div id="work" className="container mt-20 mb-56 pt-8">
         <h3 className="text-[3rem] font-bold mb-10">Featured Work</h3>
         <div className="grid grid-cols-2 gap-x-16 gap-y-16">
           <Work
@@ -150,7 +150,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div id="contact" className="container">
+      <div id="contact" className="container mb-56">
         <h3 className="text-[2rem] font-bold text-center mb-5">Get in Touch</h3>
         <div className="max-w-2xl mx-auto text-center border rounded-3xl py-16">
           <h4 className="text-xl">
