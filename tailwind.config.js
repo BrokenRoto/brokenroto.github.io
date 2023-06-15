@@ -43,7 +43,8 @@ module.exports = {
       },
     },
     minHeight: {
-      'full-minus-nav': 'calc(100vh - 110px)'
+      'full-minus-nav': 'calc(100dvh - 110px)',
+      'full-minus-nav-mobile': 'calc(100dvh - 90px)'
     },
     container: {
       center: true,
