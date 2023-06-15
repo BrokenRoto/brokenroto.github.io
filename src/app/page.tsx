@@ -16,13 +16,13 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="flex flex-col justify-center min-h-full-minus-nav">
+      <div className="flex flex-col justify-center min-h-full-minus-nav-mobile md:min-h-full-minus-nav">
         <div className="container flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col justify-center order-1">
-            <h1 className="animate-typing overflow-hidden text-secondary text-[3rem] lg:text-[5rem] font-bold tracking-wider">
+            <h1 className="animate-typing overflow-hidden text-secondary text-[2.5rem] sm:text-[3rem] lg:text-[5rem] font-bold tracking-wider">
               Welcome
             </h1>
-            <h2 className="text-[1.5rem] lg:text-[2rem] max-w-xl">
+            <h2 className="text-[1.2rem] sm:text-[1.5rem] lg:text-[2rem] max-w-xl">
               My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
               software.
             </h2>
@@ -30,13 +30,13 @@ const HomePage = () => {
               <HeroButton
                 href="#contact"
                 text="Let's Talk"
-                className="text-lg md:text-xl max-w-[200px] md:max-w-none"
+                className="text-md md:text-xl max-w-[150px] sm:max-w-[200px] md:max-w-none"
                 inverted
               />
               <HeroButton
                 href="#work"
                 text="See Portfolio"
-                className="text-lg md:text-xl max-w-[200px] md-max-w-none"
+                className="text-md md:text-xl max-w-[150px] sm:max-w-[200px] md-max-w-none"
               />
             </div>
           </div>
@@ -49,7 +49,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <div className="text-[3rem] flex justify-center mt-28 mb-12 hover:text-primary-light active:text-primary-light transition-colors">
+        <div className="text-[2rem] md:text[3rem] flex justify-center mt-10 md:mt-28 md:mb-12 hover:text-primary-light active:text-primary-light transition-colors">
           <Link href="#about">
             <SlArrowDown />
           </Link>
