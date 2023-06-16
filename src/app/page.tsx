@@ -49,7 +49,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <div className="text-[2rem] md:text[3rem] flex justify-center mt-10 md:mt-28 md:mb-12 hover:text-primary-light active:text-primary-light transition-colors">
+        <div className="text-[2rem] md:text[3rem] flex justify-center my-10 md:mt-28 md:mb-12 hover:text-primary-light active:text-primary-light transition-colors">
           <Link href="#about">
             <SlArrowDown />
           </Link>
