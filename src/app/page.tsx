@@ -30,13 +30,13 @@ const HomePage = () => {
               <HeroButton
                 href="#contact"
                 text="Let's Talk"
-                className="text-md md:text-xl max-w-[150px] sm:max-w-[200px] md:max-w-none"
+                className="text-md md:text-xl max-w-[175px] sm:max-w-[200px] md:max-w-none"
                 inverted
               />
               <HeroButton
                 href="#work"
                 text="See Portfolio"
-                className="text-md md:text-xl max-w-[150px] sm:max-w-[200px] md-max-w-none"
+                className="text-md md:text-xl max-w-[175px] sm:max-w-[200px] md-max-w-none"
               />
             </div>
           </div>
