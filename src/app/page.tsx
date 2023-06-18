@@ -17,16 +17,16 @@ const HomePage = () => {
   return (
     <Fragment>
       <div className="flex flex-col justify-center min-h-full-minus-nav-mobile md:min-h-full-minus-nav">
-        <div className="container flex flex-col md:flex-row justify-between items-center lg:py-16">
+        <div className="container flex flex-col md:flex-row justify-between md:items-center lg:py-16">
           <div className="flex flex-col justify-center order-1">
             <h1 className="animate-typing overflow-hidden text-secondary text-[2rem] sm:text-[3rem] lg:text-[4rem] font-bold tracking-wider">
               Welcome
             </h1>
-            <h2 className="text-[1rem] sm:text-[1.5rem] lg:text-[2rem] md:max-w-xl">
+            <h2 className="text-[1rem] max-w-[300px] sm:max-w-xl sm:text-[1.5rem] lg:text-[2rem]">
               My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
               software.
             </h2>
-            <div className="flex flex-col mt-9 md:block md:space-x-3 space-y-3">
+            <div className="flex flex-col mt-6 sm:mt-9 md:block md:space-x-3 space-y-3">
               <HeroButton
                 href="#contact"
                 text="Let's Talk"
@@ -43,7 +43,7 @@ const HomePage = () => {
           <div className="order:1 md:mr-20">
             <Image
               priority
-              className="mb-8 md:mb-0 rounded-full w-full max-w-[200px] sm:max-w-[250px] md:max-w-[400px] shadow-lg"
+              className="my-6 md:mb-0 rounded-full w-full max-w-[200px] sm:max-w-[250px] md:max-w-[400px] shadow-lg mx-auto"
               src={profile}
               alt="profile"
             />
@@ -57,7 +57,7 @@ const HomePage = () => {
       </div>
       <div
         id="about"
-        className="bg-secondary text-primary py-16 flex flex-col justify-center mx-[-1.5rem] md:px-[-2.5rem] lg:mx-[-5rem]"
+        className="bg-secondary text-primary py-16 flex flex-col justify-center mx-[-1.5rem] md:px-[-2.5rem] lg:mx-[-5rem] xl:mx-[-6rem]"
       >
         <div className="px-8 md:px-0 container text-center">
           <h3 className="text-[2rem] lg:text-[3rem] font-bold">Let me introduce myself.</h3>
