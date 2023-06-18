@@ -17,12 +17,12 @@ const HomePage = () => {
   return (
     <Fragment>
       <div className="flex flex-col justify-center min-h-full-minus-nav-mobile md:min-h-full-minus-nav">
-        <div className="container flex flex-col md:flex-row justify-between items-center">
+        <div className="container flex flex-col md:flex-row justify-between items-center lg:py-16">
           <div className="flex flex-col justify-center order-1">
-            <h1 className="animate-typing overflow-hidden text-secondary text-[2.5rem] sm:text-[3rem] lg:text-[5rem] font-bold tracking-wider">
+            <h1 className="animate-typing overflow-hidden text-secondary text-[2rem] sm:text-[3rem] lg:text-[4rem] font-bold tracking-wider">
               Welcome
             </h1>
-            <h2 className="text-[1.2rem] sm:text-[1.5rem] lg:text-[2rem] max-w-xl">
+            <h2 className="text-[1rem] sm:text-[1.5rem] lg:text-[2rem] md:max-w-xl">
               My name is Roberto. I&apos;m based in Quito, Ecuador, and I love
               software.
             </h2>
@@ -30,20 +30,20 @@ const HomePage = () => {
               <HeroButton
                 href="#contact"
                 text="Let's Talk"
-                className="text-md md:text-xl max-w-[175px] sm:max-w-[200px] md:max-w-none"
+                className="text-sm sm:text-md md:text-xl max-w-[175px] sm:max-w-[200px] md:max-w-none"
                 inverted
               />
               <HeroButton
                 href="#work"
                 text="See Portfolio"
-                className="text-md md:text-xl max-w-[175px] sm:max-w-[200px] md-max-w-none"
+                className="text-sm sm:text-md md:text-xl max-w-[175px] sm:max-w-[200px] md-max-w-none"
               />
             </div>
           </div>
           <div className="order:1 md:mr-20">
             <Image
               priority
-              className="mb-8 md:mb-0 rounded-full w-full max-w-[250px] md:max-w-[450px] shadow-lg"
+              className="mb-8 md:mb-0 rounded-full w-full max-w-[200px] sm:max-w-[250px] md:max-w-[400px] shadow-lg"
               src={profile}
               alt="profile"
             />
@@ -57,7 +57,7 @@ const HomePage = () => {
       </div>
       <div
         id="about"
-        className="bg-secondary text-primary py-16 flex flex-col justify-center mx-[-1.5rem]"
+        className="bg-secondary text-primary py-16 flex flex-col justify-center mx-[-1.5rem] md:px-[-2.5rem] lg:mx-[-5rem]"
       >
         <div className="px-8 md:px-0 container text-center">
           <h3 className="text-[2rem] lg:text-[3rem] font-bold">Let me introduce myself.</h3>
