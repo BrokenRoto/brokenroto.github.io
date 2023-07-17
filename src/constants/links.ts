@@ -2,6 +2,8 @@ export const workLinks = {
   transformar: "https://transformar.bio/",
   himchari: "https://himcharitkd.com/",
   descubreya: "https://github.com/BrokenRoto/descubre-ya",
+  sinisterVacations: "https://brokenroto.itch.io/sinister-vacations",
+  disturbingHome: "https://brokenroto.itch.io/disturbing-home-vr"
 }
 
 export const socialLinks = {

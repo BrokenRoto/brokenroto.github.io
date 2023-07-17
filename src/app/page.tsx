@@ -137,7 +137,7 @@ const HomePage = () => {
             description="Unleash chaos in a stranded paradise turned nightmare. Battle undead horrors, navigate a hidden lab, and fight for survival in this intense First Person Shooter."
             technologies={["Unity", "C#", "Game Design"]}
             image={sinisterVacations}
-            nonLink
+            link={workLinks.sinisterVacations}
             title="Sinister Vacations"
           />
           <Work
@@ -145,7 +145,7 @@ const HomePage = () => {
             description="Prepare to be captivated by the unsettling atmosphere of 'Disturbing Home VR.' Experience the suspense of a haunting virtual reality horror game as you navigate an ominous house and uncover hidden clues."
             technologies={["Unity", "C#", "Virtual Reality"]}
             image={disturbingHome}
-            nonLink
+            link={workLinks.disturbingHome}
             title="Disturbing Home VR"
           />
         </div>
